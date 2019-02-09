@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+body {
+    padding-top: 10px;
+    width: 700px;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+    margin: 5px auto;
+}
+form {
+    background: #dc8;
+    padding: 10px;
+    border: 1px solid;
+}
+input, textarea, select {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 5px;
+    font-size: 1.2em;
+    margin: 3px;
+}
+input[type="submit"] {
+    border: 3px groove;
+}
+
+table.weapons {
+    width: 100%;
+    margin-top: 10px;
+}
+
+table.weapons, table.weapons tr, table.weapons td, table.weapons th {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 0.5em;
+}
+table.weapons td a {
+    display: block;
+}
+
+div.weapon h1 {
+    font-size: 2em;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+div.weapon .back {
+    text-align: right;
+    margin-top: 20px;
+}
