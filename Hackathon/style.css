@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+body {
+    padding-top: 10px;
+    width: 700px;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+    margin: 5px auto;
+}
+form {
+    background: #dc8;
+    padding: 10px;
+    border: 1px solid;
+}
+input, textarea, select {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 5px;
+    font-size: 1.2em;
+    margin: 3px;
+}
+input[type="submit"] {
+    border: 3px groove;
+}
+
+table.weapons {
+    width: 100%;
+    margin-top: 10px;
+}
+
+table.weapons, table.weapons tr, table.weapons td, table.weapons th {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 0.5em;
+}
+table.weapons td a {
+    display: block;
+}
+
+div.weapon h1 {
+    font-size: 2em;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+div.weapon .back {
+    text-align: right;
+    margin-top: 20px;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.5s 0.5s ease-in-out;
+  transition: all 0.5s 0.5s ease-in-out;
+}
+
+.modal-content {
+  padding: 10px;
+  max-width: 600px;
+  min-width: 360px;
+  max-height: 85%;
+  overflow: auto;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  z-index: 2;
+  opacity: 0;
+  border-radius: 3px;
+  background: #fff;
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.modal-content img {
+  display: block;
+  width: 100%;
+  margin: 10px 0 0;
+}
+
+.modal-content p {
+  padding-top: 10px;
+  text-align: justify;
+}
+.modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-close:after {
+  content: "X";
+  float: right;
+  margin: 5px 5px 0 0;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 20px;
+  box-shadow: 0 0 3px #000;
+}
+.highlights-button {
+  display: inline-block;
+  padding: 10px 15px 8px;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  background-color: #ececec;
+  -webkit-transition: background-color 300ms ease-in-out, border-color 300ms ease-in-out;
+  transition: background-color 300ms ease-in-out, border-color 300ms ease-in-out;
+}
+.window{
+    display:none;
+    width:300px;
+    height:300px;
+    position:absolute;
+    left:0;
+    top:0;
+    background:#FFF;
+    z-index:9900;
+    padding:10px;
+    border-radius:10px;
+}
+ 
+#mascara{
+    display:none;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:9000;
+    background-color:#000;
+}
+ 
+.fechar{display:block; text-align:right;}

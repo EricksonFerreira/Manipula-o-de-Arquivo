@@ -1,0 +1,111 @@
+*{margin:0px; padding: 0px};
+		body{background-color: #043247; 
+		width: 1280px;
+		margin: 0 auto;
+		}
+		h1{	font-size: 1.7em;text-align: center;color:red;}
+		h2{	font-size: 1.5em;text-align: center;color:#000;}
+		h3{	font-size: 1.5em;text-align: center;color:#000;}
+		h4{	font-size: 1em;text-align: center;color:#000; margin-top: 1em;}
+
+		.tudo{
+			margin:0px;
+			 padding: 0px;
+			width: 1080px; 
+			position: absolute;
+			border: 1px solid red;}
+		.esquerda{
+			margin-top: -38.4em;
+			float: left;
+			width: 46%;
+			height: 47em;
+/*			background: #343434;
+			border: 1px solid #dddddd;
+*/		}
+		.letreiro{float: left;
+			width: 100%;
+			height: 10em;
+			background-color: #666;
+		}
+		.item{
+			width: 25%;
+			float: left;
+			text-align: center;
+			border: 1px solid #000;
+			background-color: #fff;
+		}
+		.descricaoproduto{float: left;
+			width: 74%;
+			text-align: center;
+			border: 1px solid #000;
+			background-color: #fff;
+		}
+		.direita{
+			float: left;
+			width: 59%;
+			margin-left: 40%;
+		}
+		.Caixa{
+		float: left;
+		margin-left: 1.5em;
+		font-size: 5em;
+		text-align: center;
+		}
+		.imgprod{
+		float: left;
+		border: 1px solid #333;	
+		border-radius: 1em 1em 1em;
+		margin-left: 8em;
+		width: 25em;
+		height: 20em;
+		}	
+		.a1{
+		margin-top: 2em;
+		margin-left: 5em;
+		float: left;
+		width: 35%;height: 5em;
+		}
+		.a2{
+		float: left;
+		margin-top: 2em;
+		margin-left: 3em;
+		width: 35%;height: 5em;
+		}
+		.prod{
+			float: left;
+			width: 90%;height: 1em;
+/*			background: red;
+*/			margin-left: 5%;
+		}
+		.txt{
+		width: 100%;
+		border-radius: 1em 1em 1em;
+		height: 2em;
+		text-align: center;
+		font-size: 1em
+		}
+		.i{
+			float: left;
+			width: 25%;
+			height: 3em;
+			border:1px solid black;
+		}
+		.p{
+			float: left;
+			width: 74%;
+			height: 3em;
+			border:1px solid black;
+		}
+		.codigodebarra{
+			height: 1em;width: 30%;
+			float: left;
+			margin-left: 0em;
+			margin-top:0.2em; 
+		}
+		.nomedoproduto{float: left; margin-left: 4%; height: 1em; width: 65%; margin-top:0.2em; font-size: 1em;}
+		.quantidade{float: left; margin-left: 4%; height: 1em; width: 25%; margin-top:0.5em; text-align: center;}
+		.preco{float: left; margin-left: 4%; height: 1em; width: 25%; margin-top:0.5em; text-align: center;}
+		.precototprod{float: left; margin-left: 4%; height: 1em; width: 25%; margin-top:0.5em; text-align: center;}
+		.fim{float:left;width: 100%; height:4.5em; background: #666}
+		.total{float: left; margin-top: .6em; margin-left: 1.5em;font-size: 2em;font-weight: bold;}
+		.tots{float: left; margin-top: .95em; margin-left: 1.0em; width: 6em; height: 1em; text-align: center; font-size: 1.5em;border-radius: 1em 1em 1em}
