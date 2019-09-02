@@ -1,5 +1,5 @@
 # Manipulação de Arquivos com PHP e CSV
-São alguns projetos que fiz quando estava estudando manipulação de arquivo .csv usando a linguagem 
+São alguns projetos que fiz quando estava estudando manipulação de arquivo ````.csv```` usando a linguagem PHP 
 
 ### Pré-Requisitos
 - Git instalado na máquina
